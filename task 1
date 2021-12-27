@@ -1,0 +1,20 @@
+1.What is difference between http1 1 and http2?
+  HTTP2 is much faster and more reliable than HTTP1. HTTP1 loads a single request for every TCP connection,
+  while HTTP2 avoids network delay by using multiplexing. HTTP is a network delay sensitive protocol in the
+  sense that if there is less network delay, then the page loads faster.
+  The primary advantage of HTTP/2 is its improved speed over HTTP/1.1. 
+  This is achieved thanks to a combination of elements: HTTP/2 is binary,
+  instead of textual meaning it is more compact, travels faster 'on the wire' and is less susceptible to errors. HTTP/2 is fully multiplexed.
+
+
+2.Write a blog about objects and its internal representation in Javascript?
+  Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+  These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)
+  in the sense that while these primitive data-types all store a single value each (depending on their types).
+  Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+  An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value.
+  That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+  Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+  These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+  For Eg. If your object is a student, it will have properties like name, age, address, id, etc and methods like updateAddress, updateNam, etc.
+
